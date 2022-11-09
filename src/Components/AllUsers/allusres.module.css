@@ -1,0 +1,58 @@
+.users{
+       margin:20px ;   
+    
+
+}
+
+.items{
+   
+    width:60%;   
+    display: flex;
+    flex-wrap: wrap;   
+    margin: auto ;
+    justify-content: space-around;
+}
+
+.text{
+    width: 550px;       
+    margin-top: 20px; 
+    display: flex;
+    justify-content: space-between;
+   
+    
+    
+}
+.text h5{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text h5:nth-child(1){
+    margin-left: 60px;
+   
+}
+.text h5:nth-child(3){
+    margin-right: -50px;
+}
+
+.cats{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.cats1{
+    margin-bottom: 15px;
+}
+
+
+@media screen and (max-width:880px){
+    .text{
+        display: none;
+    }
+
+ 
+ 
+}

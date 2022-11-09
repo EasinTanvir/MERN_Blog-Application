@@ -1,0 +1,143 @@
+.carousels{
+    width: 90%;
+    margin: 20px auto;
+    object-fit: cover;  
+ 
+}
+
+.cars img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.items{
+    width: 40%;
+    display: flex; 
+    margin: 10px 0px;
+    height: 450px;
+    overflow: auto;   
+   
+     
+ }
+
+ .items .img1{
+    width: 370px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+
+
+.final{
+   
+   margin: 50px auto;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+  
+   
+}
+
+.final2{
+    width: 80%;  
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+
+.extra{
+    margin-top: 15px;
+    width: 20%;
+    height: 500px;
+    text-align: center;  
+    
+   
+  
+    
+  
+}
+ 
+
+
+
+
+.extra select{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: -30px;
+   
+}
+
+.recent{
+margin-top: 30px;
+
+}
+.recent h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.texts button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 160px;
+}
+
+
+@media screen and (max-width:880px) {
+ 
+    .final{
+        display: flex;
+       flex-direction: column-reverse;
+    }
+    .final2{
+        width: 100%;  
+        display: flex;
+        flex-direction: column;  
+       
+       
+          
+       
+       
+    }
+
+    .extra{
+        text-align: center;
+        width: 100%;
+        height: 400px;
+       
+    }
+
+    .items {
+        width: 80%;
+        margin-bottom: 10px;
+       
+        margin: auto;
+      
+    }
+
+    .cars img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    
+   
+
+
+   
+    .items .img1{
+        display: block;
+        width: 100%;
+       
+
+      
+    }
+}
+
+

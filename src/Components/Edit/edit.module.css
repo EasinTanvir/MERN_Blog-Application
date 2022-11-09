@@ -1,0 +1,59 @@
+.main{
+    background-color: aliceblue;
+   
+}
+
+.forms{
+    
+    width: 80%;
+    margin:10px auto;
+    
+}
+
+.forms input{
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 0px;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: blue;
+    border-bottom: 1px dotted black;
+   
+    
+}
+
+::placeholder{
+    color: black;
+}
+
+.text h2{
+    text-align: center;
+    margin: 30px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.forms input:nth-child(2){
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.btns{
+    margin-top: 20px;
+}
+
+.imagess{
+  
+    text-align: center;
+    margin-bottom: 60px;
+}
+.imagess img{
+  width: 60%;  
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+
+}

@@ -1,0 +1,34 @@
+.items{
+    position: relative;
+    width: 70%;
+    margin: 15px auto;
+   
+    
+}
+
+.icons{
+    margin-top: 15px;
+    
+    
+}
+
+.icons2{
+    width: 200px;
+    margin-left: 570px;
+    margin-top: 20px;
+    
+}
+
+.icons button{
+    margin-right: 10px;
+   
+}
+
+.author{
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+}
+
+
+

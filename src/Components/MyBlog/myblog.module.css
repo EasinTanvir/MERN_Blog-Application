@@ -1,0 +1,58 @@
+.items{
+    position: relative;
+    width: 70%;
+    margin: 50px auto;
+    height: 450px;
+    overflow: auto;  
+    
+}
+
+.myimg{
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.btns{
+   
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.final{
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.icons{
+    margin-top: 15px;
+    
+}
+
+.author{
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+}
+
+
+
+@media screen and (max-width:880px){
+
+    .items{
+        width: 80%;
+        height: 330px;
+        margin: 30px auto;
+    }
+
+    .myimg{
+        width: 300px;
+        height: 180px;
+        
+    }
+
+    
+}

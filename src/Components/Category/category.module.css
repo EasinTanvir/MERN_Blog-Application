@@ -1,0 +1,39 @@
+.post{
+    width: 80%;
+    margin: 10px auto;   
+    padding: 10px;
+}
+
+.final{
+    width: 100%;   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.items{
+    width: 450px;
+    margin: 10px 0px;
+    height: 400px;
+    overflow: auto;
+  
+}
+
+.post h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.cats{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.cats1{
+    margin-bottom: 15px;
+}

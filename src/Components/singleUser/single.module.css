@@ -1,0 +1,79 @@
+.main{
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+   
+  
+
+}
+
+
+
+.imgs{
+
+    text-align: center;
+    margin-right: 100px;
+}
+
+.imgs img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.text{
+    margin-top: 30px;
+    
+}
+
+.icons{
+    margin-top: 20px;
+    text-align: center;
+}
+.pass{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.forms{
+    width: 300px;
+    margin: 40px 0px;
+    
+    
+}
+
+.forms h2{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form input{
+   display: block;
+   width: 100%;
+   border: 1px solid black;
+   border-radius: 3px;
+   padding: 3px 0px;
+   margin-bottom: 5px;
+    
+}
+
+form label{
+    margin-bottom: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+@media screen and (max-width:880px) {
+    .main{
+        width: 390px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .imgs img{
+        text-align: center;
+    }
+    
+}

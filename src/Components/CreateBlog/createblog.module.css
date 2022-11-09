@@ -1,0 +1,150 @@
+.main{
+    background-color: aliceblue;
+    position: relative;
+}
+
+.forms{
+    
+    width: 80%;
+    margin:10px auto;
+    
+}
+
+.forms input{
+  margin-top: 30px;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 0px;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: blue;
+    border-bottom: 1px dotted black;
+   
+    
+}
+
+::placeholder{
+    color: black
+}
+
+.forms textarea{
+    
+    margin-bottom: 20px;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 1px dotted black;
+    color: blue;
+    outline: none;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.btns{
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    bottom: 0;
+    margin: auto;
+}
+.imagess{
+  
+    text-align: center;
+    margin-bottom: 60px;
+}
+.imagess img{
+  width: 60%;  
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+
+}
+
+
+@media screen and (max-width:980px) {
+    .imagess img{
+        width: 55%;  
+        height: 300px;
+        object-fit: cover;      
+      
+      }
+      .category{
+       
+       text-align: start;
+       padding-left: 40px;
+
+      }
+      .category select{
+        width: 160px;
+        
+      }
+
+      .forms input{
+         
+          width: 60%;     
+          padding: 10px 0px;         
+          text-align: justify;     
+         
+          
+      }  
+      .forms textarea{        
+        width: 80%;     
+        padding: 10px 0px;
+        text-align: justify;     
+       
+        
+    }      
+}
+
+
+@media screen and (max-width:800px) {
+    .imagess img{
+        margin-top: 20px;
+        width: 90%;  
+        height: 200px;
+        object-fit: cover;      
+      
+      }
+      .category{
+       
+       text-align: start;
+       padding-left: 40px;
+
+      }
+      .category select{
+        width: 160px;
+        
+      }
+
+      .forms input{
+         
+          width: 90%;     
+          padding: 10px 0px;
+        
+          text-align: justify;     
+         
+          
+      }  
+      .forms textarea{        
+        width: 90%;     
+        padding: 10px 0px;
+        
+        text-align: justify;     
+       
+        
+    }      
+
+    .btns{
+        position: absolute;
+        right: 10px;
+       top: 10px;
+       
+        margin: auto;
+    }
+}
